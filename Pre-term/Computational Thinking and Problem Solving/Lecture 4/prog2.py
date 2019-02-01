@@ -19,6 +19,15 @@ else:
     print("The year", year, "is not leap year")
 
 '''
+# golfed version
+
+if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):
+    leap = True
+else:
+    leap = False
+'''
+
+'''
 # the original answer
 
 if year % 4 == 0:
