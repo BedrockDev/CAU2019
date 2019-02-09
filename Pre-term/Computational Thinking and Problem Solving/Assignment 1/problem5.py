@@ -9,11 +9,14 @@ while True:
         # check for invalid input
         if start > 9 or start < 1 or end > 9 or end < 1:
             print("Invalid input - Both column numbers should be between 1 and 9")
+            continue
         
         if end - start > 4:
             print("The difference should be same or smaller than 4\n")
+            continue
         elif end - start <= 0:
             print("Ending column should be bigger than starting column\n")
+            continue
         else:
             break
     except:

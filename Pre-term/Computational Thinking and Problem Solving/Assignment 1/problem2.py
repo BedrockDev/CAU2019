@@ -1,4 +1,4 @@
-# problem 2: list input, output
+# problem 2: finding and inserting a data to list
 
 town = ['흑석동', '사당동', '상도동', '노량진동', '규동']
 

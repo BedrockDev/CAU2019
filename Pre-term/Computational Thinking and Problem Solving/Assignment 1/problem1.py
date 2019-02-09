@@ -1,4 +1,4 @@
-# problem 1: get a user input of a integer and convert it to positive value
+# problem 1: get a user input of a integer and print its absolute value
 
 while True:
     i = int(input("Enter a integer: "))
