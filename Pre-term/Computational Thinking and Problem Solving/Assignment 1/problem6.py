@@ -23,7 +23,7 @@ while True:
     print(p2, "got", p2_throw, ", current position is", p2_pos)
 
     if p1_pos >= 30 and p2_pos >= 30:
-        print('\n', p1, "and", p2, "duced in", round_count, "rounds.")
+        print('\n', p1, "and", p2, "tied in", round_count, "rounds.")
         break
     elif p1_pos >= 30 and p2_pos < 30:
         print('\n', p1, "won in", round_count, "rounds!")
