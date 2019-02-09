@@ -1,6 +1,7 @@
 # problem 3: menu - price robot
 
-menu = {'noodle':500, 'ham':200, 'egg':100, 'spaghetti':900}
+menu_name = ['noodle','ham', 'egg', 'spaghetti']
+menu_price = [500, 200, 100, 900]
 
 print("Press enter to quit")
 
@@ -11,7 +12,7 @@ while True:
     if selection == "":
         break
 
-    try:
-        print("It is", menu[selection], "won.")
-    except:
-        print("There is no such menu.")
+    if selection in menu_name:
+        print("It is", menu_price[menu_name.index(selection)], "won.")
+    else:
+        print("There is no such menu.")     
