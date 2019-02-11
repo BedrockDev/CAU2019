@@ -22,5 +22,5 @@ for i in range(1, len(grade) + 1):
     for person in grade:
         if person[3] is i:
             print(person[0], person[1], person[2], person[3])
-            break
+            break # this blocks the duplicated ranks
 
