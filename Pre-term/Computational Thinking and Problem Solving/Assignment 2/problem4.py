@@ -1,4 +1,4 @@
-# problem 4: dictonary
+# problem 4: dictionary
 
 f = open('dict_test.TXT', 'r', encoding='utf-8')
 

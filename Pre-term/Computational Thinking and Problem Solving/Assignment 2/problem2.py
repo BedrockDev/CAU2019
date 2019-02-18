@@ -16,12 +16,7 @@ def render(x):
     row[get_pos(sin(x))] = '*'
     row[get_pos(cos(x))] = '+'
 
-    row_str = left_margin
-
-    for c in row:
-        row_str += c
-
-    print(row_str)
+    print(left_margin + ''.join(row))
 
 for i in range(0, 20):
     render(2*pi*i/20)

@@ -1,4 +1,4 @@
-# problem 1: sourcing the names from formatted files
+# problem 1: get the names from formatted sentences
 
 def get_name(sentence):
     # words to replace
