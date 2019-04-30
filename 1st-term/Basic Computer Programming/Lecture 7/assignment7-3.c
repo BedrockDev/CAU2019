@@ -1,15 +1,22 @@
 #include <stdio.h>
 
 int Factorial(int n) {
-	
+	if (n - 1 != 0) {
+		return Factorial(n - 1) * n;
+	}
+	else {
+		return n;
+	}
 }
 
-int main(void) {
+int main() {
 	printf("1!= %d\n", Factorial(1));
 	printf("2!= %d\n", Factorial(2));
 	printf("3!= %d\n", Factorial(3));
 	printf("4!= %d\n", Factorial(4));
 	printf("9!= %d\n", Factorial(9));
+
+	getch();
 
 	return 0;
 }
