@@ -4,8 +4,9 @@ int main() {
 	float h, w;
 	scanf_s("%f %f", &h, &w);
 
-	printf("%*.3f\n", 12, h * w);
-	printf("%.3f", h * w / 2);
+	printf("%12.3f\n", h * w);
+	printf("%-12.3f", h * w / 2);
+	printf("test");
 
 	return 0;
 }
